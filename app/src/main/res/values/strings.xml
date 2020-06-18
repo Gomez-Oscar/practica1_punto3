@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">practica1_punto3</string>
+    <string name="titulo">Calculo de Resistencias de 4 Bandas</string>
+    <string name="banda1">Banda 1</string>
+    <string name="banda2">Banda 2</string>
+    <string name="multiplicador">Multiplicador</string>
+    <string name="tolerancia">Tolerancia</string>
+    <string name="calcular">Calcular</string>
+
+
+    <string-array name="colores_b1_b2">
+        <item>Negro</item>
+        <item>Marron</item>
+        <item>Rojo</item>
+        <item>Naranja</item>
+        <item>Amarillo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Morado</item>
+        <item>Gris</item>
+        <item>Blanco</item>
+    </string-array>
+
+    <string-array name="colores_mul">
+        <item>Negro</item>
+        <item>Marron</item>
+        <item>Rojo</item>
+        <item>Naranja</item>
+        <item>Amarillo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Morado</item>
+        <item>Dorado</item>
+        <item>Plateado</item>
+    </string-array>
+
+    <string-array name="colores_tol">
+        <item>Marron</item>
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Morado</item>
+        <item>Gris</item>
+        <item>Dorado</item>
+        <item>Plateado</item>
+    </string-array>
+</resources>

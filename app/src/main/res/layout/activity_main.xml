@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_banda1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:text="@string/banda1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/sp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:entries="@array/colores_b1_b2"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_banda2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:text="@string/banda2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/sp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:entries="@array/colores_b1_b2"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_multiplicador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:text="@string/multiplicador"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/sp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:entries="@array/colores_mul"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_tolerancia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:text="@string/tolerancia"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/sp4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:entries="@array/colores_tol"
+                android:textAlignment="center" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/bt_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/calcular" />
+
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>
